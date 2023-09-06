@@ -1,5 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
+import 'modules/auth/auth_module.dart';
 import 'modules/home/home_module.dart';
 
 class AppModule extends Module {
@@ -11,7 +12,7 @@ class AppModule extends Module {
 
   @override
   List<ModularRoute> get routes => [
-    //ModuleRoute('/', module: AuthModule()),
-    ModuleRoute('/', module: HomeModule())
+    ModuleRoute('/', module: AuthModule()),
+    ModuleRoute('/home', module: HomeModule())
   ];
 }
