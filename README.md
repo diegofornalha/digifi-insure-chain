@@ -2,6 +2,34 @@
 
 # InsureChain: ??????
 
+
+<details>
+<summary>🌟 🛠 Installation (Mobile)</summary>
+
+1. **Pre-requisites**
+    - Make sure you have Dart and Flutter installed on your machine.
+
+2. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/ramigonzalez/digifi-insure-chain/mobile
+    ```
+
+3. **Install Dependencies**
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the App**
+
+    ```bash
+    flutter run
+    ```
+</details>    
+    
+---
+
 ## 📂 Project File Tree
 
 ```
@@ -34,7 +62,8 @@ InsureChain
 ├── README.md
 ```
 
-## 🛠 Tech Stack Mobile
+<details>
+<summary>🛠 Tech Stack Mobile</summary>
 
 ### Design Patterns (Mobile)
 - Singleton
@@ -45,22 +74,22 @@ InsureChain
 
 ### Architecture (Mobile)
 - Clean Dart
+</details>   
 
-## 🛠 Tech Stack Blockchain
+<details>
+<summary>🛠 Tech Stack Blockchain</summary>
 
 ### Design Patterns (Blockchain)
 - ?
 
-### External Packages (Blockchain)
-- ?
+### External Packages (Blockchaine)
 - ?
 
 ### Architecture (Blockchain)
 - ?
+</details>   
 
 ---
-
-## 🌈 Future Roadmap
 
 ??
 
