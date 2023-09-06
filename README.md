@@ -10,14 +10,14 @@ InsureChain
 │    └── lib
 │    │    └── app
 │    │    │    └── core
-│    │    │    └── extensions
-│    │    │    │    │    └── build_context_utils.dart
-│    │    │    │    └── styles
-│    │    │    │    │     └── colors.dart
-│    │    │    │    │     └── text_styles.dart
+│    │    │    │      └── extensions
+│    │    │    │      │     └── build_context_utils.dart
+│    │    │    │      └── styles
+│    │    │    │            └── colors.dart
+│    │    │    │            └── text_styles.dart
 │    │    │    └── modules
 │    │    │         └── auth
-│    │    │          │   └── infra
+│    │    │          │    └── infra
 │    │    │          │    │    └── ...
 │    │    │          │    └── presenter
 │    │    │          │         └── ...
