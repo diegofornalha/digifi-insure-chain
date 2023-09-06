@@ -9,5 +9,5 @@ class AppColors {
     return _instance!;
   }
 
-  static Color get primary => const Color(0xFF2864AE);
+  static Color get primary => const Color(0xE50FA3E2);
 }
