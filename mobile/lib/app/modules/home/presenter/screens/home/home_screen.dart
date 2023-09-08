@@ -46,6 +46,7 @@ class HomeScreen extends StatelessWidget {
                   ItemCategory(
                     title: "Contratar Seguro",
                     icon: Icons.security,
+                    destiny: "hire",
                   ),
                   ItemCategory(
                     title: "Seguros Contratados",
@@ -64,6 +65,17 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
+              Text(
+                "Ultimos Seguros Contratados",
+                style:
+                    GoogleFonts.poppins(textStyle: styleModifier.mediumWhite),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Center(
+                child: CircularProgressIndicator(),
+              )
             ],
           ),
         ),

@@ -15,7 +15,12 @@ class AppTextStyles {
         color: Colors.white,
         fontSize: 14,
         fontWeight: FontWeight.w400,
-      );
+  );
+  TextStyle get smallBoldWhite => const TextStyle(
+        color: Colors.white,
+        fontSize: 16,
+        fontWeight: FontWeight.w700,
+  );
 
   TextStyle get mediumWhite => const TextStyle(
         color: Colors.white,
