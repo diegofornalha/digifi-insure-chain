@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mobile/app/core/extensions/build_context_utils.dart';
 import 'package:mobile/app/core/styles/colors.dart';
@@ -56,7 +57,7 @@ class WelcomeScreen extends StatelessWidget {
               height: 35,
             ),
             GestureDetector(
-              onTap: (){},
+              onTap: () => Modular.to.navigate("home"),
               child: Container(
                 alignment: Alignment.center,
                 width: context.mediaWidth * 0.8,
