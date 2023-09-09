@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { IFrameAuthClient } from "@nfid/iframe-auth";
+import logoid from '../assets/logoid.png'
+
 
 interface NFIDEmbedProps {
     host: string;
@@ -29,9 +31,19 @@ const NFIDEmbed: React.FC<NFIDEmbedProps> = ({
         <div
             ref={containerRef}
         >
-            <button onClick={() => auth()}>
-                Create Wallet
+            <div style={{paddingBottom: '20px'}}>
+            <button style={{
+                alignItems: "center",
+                width: '300px',
+                height: '60px',
+                backgroundColor: '#6E21D1'
+            }}    onClick={() => auth()}>
+                <img src={logoid} alt="Logo" style={{
+                    height: '40px',
+                    width: '80px'
+                }}/>
             </button>
+            </div>
         </div>
     );
 };

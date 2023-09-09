@@ -45,8 +45,8 @@
 .button {
     width: 200px;
     height: 50px;
-    background: #3D1273;
-    border-radius: 10px,
+    border-radius: 10px;
+    background: #10A9B0;
 }
 
 .smallWhiteText {
@@ -67,4 +67,24 @@
     height: 100%;
     width: 100%;
     background-color: #10A9B0;
+}
+
+.modal {
+    background-color: #10A9B0;
+}
+
+.textmodal {
+    color: var(--color-dark-dark, #23262F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.subtitlemodal {
+    color: var(--color-dark-dark-2, #87898E);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
 }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import WelcomeView from "./WelcomeView";
 import { AuthClient } from "@dfinity/auth-client";
 
+
 interface WelcomeControllerState {
     user: string;
     authenticated: boolean;
