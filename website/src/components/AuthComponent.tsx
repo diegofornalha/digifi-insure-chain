@@ -28,15 +28,9 @@ const NFIDEmbed: React.FC<NFIDEmbedProps> = ({
     return (
         <div
             ref={containerRef}
-            style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "100vh",
-            }}
         >
             <button onClick={() => auth()}>
-                Login
+                Create Wallet
             </button>
         </div>
     );
