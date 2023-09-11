@@ -1,8 +1,8 @@
 # DIGIFI BUILDATHON 2023
 
 # CredSeg Mobile: In development...
+Because we have little time, we get for a web application, but we do not rule out the development of an application.
 
-![Platform](https://img.shields.io/badge/Platform-Web-blue)
 ![Platform](https://img.shields.io/badge/Platform-Mobile-blue)
 
 ## 🛠 Installation (Mobile)
@@ -29,4 +29,8 @@
     ```
 
 ---
+
+## 🔄 Future Roadmap
+
+We want to complete the development of our mobile application with ICP technology. We firmly believe in the revolutionary potential this technology has to offer and are committed to shaping the future through it.
   
