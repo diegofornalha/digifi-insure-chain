@@ -11,7 +11,7 @@
 2. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/ramigonzalez/digifi-insure-chain/mobile
+    git clone https://github.com/ramigonzalez/digifi-insure-chain/website
     ```
    
 3. **Install React depedences**
@@ -31,52 +31,41 @@
     
 ---
 
-## 📂 Project File Tree
+## 📂 Project File Tree 
 
 ```
 CredSeg
-├── src
-│    └── credseg_icp_back-end
-│    │    └── main.mo
-│    │    │    
-│    └── credseg_icp_frontend   
-│    │    └──assets    
-│    │    │   └──...       
-│    │    └──src          
-│    │    │  └──components        
-│    │    │       └──...
-│    │    │
-│    │    └─ app.jsx
-│    │    └── index.html         
-│    │    └── index.jsx        
-│    │    │          
-│    │    │                   
-│    │    └── app_module.dart
-│    └── main.dart
-├── blockchain
-│
+├── mobile
+│          
+├── webite
 │
 ├── README.md
 ```
 
 #### `src`
 
-- `src/credseg_icp_front-end`
-    -  Our Internet Computer application front-end.
+- `mobile`
+    -  Because we have little time, we get for a web application, but we do not rule out the development of an application.
 
-- `src/credseg_icp_backend`
-    -  Our Internet Computer application back-end.
+- `website`
+    -  Our Software using Internet Computer.
     
 <details>
+    
 <summary>🛠 Tech Stack Softwre</summary>
 
-### Technologoy (Front-end)
-- React Web
-- NFID
-- Internet Computer
+### Technologoy (Mobile)
+- Dart
+- Flutter
 
-### Technologoy (Back-end)
+### Technologoy (Website)
+- Internet Computer
+- React
 - Motoko
-- Internet Computer 
+- NFID
+
+### Technologoy (Others0
+- Solidity
+- Etherium testnet
 
 ---
