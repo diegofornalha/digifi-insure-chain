@@ -1,30 +1,31 @@
 # DIGIFI BUILDATHON 2023
 
-# InsureChain: ??????
-
+# CredSeg: Revolutionizing the World of Insurance using Blockchain: Affordable Values and Debureaucratization in Action
 
 <details>
-<summary>🌟 🛠 Installation (Mobile)</summary>
+<summary>🌟 🛠 Installation </summary>
 
 1. **Pre-requisites**
-    - Make sure you have Dart and Flutter installed on your machine.
+    - Make sure you have Ubuntu, DFX and Node installed on your machine.
 
 2. **Clone the Repository**
 
     ```bash
     git clone https://github.com/ramigonzalez/digifi-insure-chain/mobile
     ```
-
-3. **Install Dependencies**
+   
+3. **Install React depedences**
 
     ```bash
-    flutter pub get
+    npm install
     ```
 
-4. **Run the App**
+4. **Run the Software**
 
     ```bash
-    flutter run
+    dfx start --background
+    dfx deploy
+    npm start
     ```
 </details>    
     
@@ -33,27 +34,23 @@
 ## 📂 Project File Tree
 
 ```
-InsureChain 
-├── mobile
-│    └── lib
-│    │    └── app
-│    │    │    └── core
-│    │    │    │      └── extensions
-│    │    │    │      │     └── build_context_utils.dart
-│    │    │    │      └── styles
-│    │    │    │            └── colors.dart
-│    │    │    │            └── text_styles.dart
-│    │    │    └── modules
-│    │    │         └── auth
-│    │    │          │    └── infra
-│    │    │          │    │    └── ...
-│    │    │          │    └── presenter
-│    │    │          │         └── ...
-│    │    │          └── home
-│    │    │          │    └── infra
-│    │    │          │         └── ...
-│    │    │          ├──  └── presenter
-│    │    │                   └── ...
+CredSeg
+├── src
+│    └── credseg_icp_back-end
+│    │    └── main.mo
+│    │    │    
+│    └── credseg_icp_frontend   
+│    │    └──assets    
+│    │    │   └──...       
+│    │    └──src          
+│    │    │  └──components        
+│    │    │       └──...
+│    │    │
+│    │    └─ app.jsx
+│    │    └── index.html         
+│    │    └── index.jsx        
+│    │    │          
+│    │    │                   
 │    │    └── app_module.dart
 │    └── main.dart
 ├── blockchain
@@ -62,35 +59,24 @@ InsureChain
 ├── README.md
 ```
 
+#### `src`
+
+- `src/credseg_icp_front-end`
+    -  Our Internet Computer application front-end.
+
+- `src/credseg_icp_backend`
+    -  Our Internet Computer application back-end.
+    
 <details>
-<summary>🛠 Tech Stack Mobile</summary>
+<summary>🛠 Tech Stack Softwre</summary>
 
-### Design Patterns (Mobile)
-- Singleton
+### Technologoy (Front-end)
+- React Web
+- NFID
+- Internet Computer
 
-### External Packages (Mobile)
-- Flutter Modular
-- Google Fonts
-
-### Architecture (Mobile)
-- Clean Dart
-</details>   
-
-<details>
-<summary>🛠 Tech Stack Blockchain</summary>
-
-### Design Patterns (Blockchain)
-- ?
-
-### External Packages (Blockchaine)
-- ?
-
-### Architecture (Blockchain)
-- ?
-</details>   
-
----
-
-??
+### Technologoy (Back-end)
+- Motoko
+- Internet Computer 
 
 ---
