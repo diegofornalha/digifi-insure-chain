@@ -2,8 +2,11 @@
 
 # CredSeg: Revolutionizing the World of Insurance using Blockchain: Affordable Values and Debureaucratization in Action
 
+![Platform](https://img.shields.io/badge/Platform-Web-blue)
+![Platform](https://img.shields.io/badge/Platform-Mobile-blue)
+
 <details>
-<summary>🌟 🛠 Installation </summary>
+<summary>🌟 🛠 Installation (Website) </summary>
 
 1. **Pre-requisites**
     - Make sure you have Ubuntu, DFX and Node installed on your machine.
@@ -67,5 +70,12 @@ CredSeg
 ### Technologoy (Others0
 - Solidity
 - Etherium testnet
+  
+</details>    
+---
+
+## 🔄 Future Roadmap
+
+We want to complete the development of our mobile application with ICP technology. We firmly believe in the revolutionary potential this technology has to offer and are committed to shaping the future through it.
 
 ---
