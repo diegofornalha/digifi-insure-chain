@@ -11,7 +11,7 @@
 2. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/ramigonzalez/digifi-insure-chain/mobile
+    git clone https://github.com/ramigonzalez/digifi-insure-chain/website
     ```
    
 3. **Install React depedences**
@@ -49,12 +49,11 @@ CredSeg
 │    │    └─ app.jsx
 │    │    └── index.html         
 │    │    └── index.jsx        
-│    │    │          
-│    │    │                   
-│    │    └── app_module.dart
-│    └── main.dart
-├── blockchain
-│
+│    │              
+│    │                       
+│    │    
+│    └── flight_api_http_request  
+│           └──... 
 │
 ├── README.md
 ```
@@ -66,6 +65,9 @@ CredSeg
 
 - `src/credseg_icp_backend`
     -  Our Internet Computer application back-end.
+ 
+- `flight_api_http_request`
+    -  Our Flight application back-end.
     
 <details>
 <summary>🛠 Tech Stack Softwre</summary>
