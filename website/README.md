@@ -69,3 +69,7 @@ CredSeg
 - `flight_api_http_request`
     -  Our Flight application back-end.
 ---
+
+## 🔄 Future Roadmap
+
+We want to make our site 100% functional with the contracts developed in the motako language and leave the same without bugs for the release of the same.
