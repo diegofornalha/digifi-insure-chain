@@ -79,3 +79,8 @@ CredSeg
 We want to complete the development of our mobile application with ICP technology. We firmly believe in the revolutionary potential this technology has to offer and are committed to shaping the future through it.
 
 ---
+## Presentation
+https://www.canva.com/design/DAFuFAHb7p8/L5OXvutqpIjaLDRC0YDrEA/edit?utm_content=DAFuFAHb7p8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## Architecture
+https://miro.com/app/board/uXjVMmhJr2w=/?share_link_id=588144405334
