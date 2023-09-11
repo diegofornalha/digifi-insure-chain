@@ -1,0 +1,29 @@
+type Timestamp = nat64;
+type Name = text;
+type InsuranceDAO = 
+ service {
+   addFlight: (FlightDetails) -> ();
+   add_account: (Account) -> ();
+   get_account: () -> (vec Account) query;
+ };
+type FlightDetails = 
+ record {
+   airport: text;
+   arrivalTime: Timestamp;
+   city: text;
+   departureTime: Timestamp;
+   flightNumber: text;
+ };
+type Email = text;
+type Cpf = nat;
+type Age = nat;
+type Address = text;
+type Account = 
+ record {
+   age: Age;
+   cpf: Cpf;
+   email: Email;
+   evmAddress: Address;
+   name: Name;
+ };
+service : () -> InsuranceDAO

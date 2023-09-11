@@ -1,0 +1,9 @@
+type FlightDetails = 
+ record {
+   end_date: text;
+   flight_number: text;
+   start_date: text;
+ };
+service : {
+  get_icp_flight_details: (FlightDetails) -> (text);
+}

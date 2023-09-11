@@ -1,0 +1,14 @@
+{
+  "__Candid_UI": {
+    "local": "br5f7-7uaaa-aaaaa-qaaca-cai"
+  },
+  "credseg_icp_backend": {
+    "local": "bkyz2-fmaaa-aaaaa-qaaaq-cai"
+  },
+  "credseg_icp_frontend": {
+    "local": "bd3sg-teaaa-aaaaa-qaaba-cai"
+  },
+  "flight_api_http_request": {
+    "local": "be2us-64aaa-aaaaa-qaabq-cai"
+  }
+}

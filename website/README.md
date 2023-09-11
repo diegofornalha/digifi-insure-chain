@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+# DIGIFI BUILDATHON 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CredSeg: Revolutionizing the World of Insurance using Blockchain: Affordable Values and Debureaucratization in Action
 
-## Available Scripts
+<details>
+<summary>🌟 🛠 Installation </summary>
 
-In the project directory, you can run:
+1. **Pre-requisites**
+    - Make sure you have Ubuntu, DFX and Node installed on your machine.
 
-### `npm start`
+2. **Clone the Repository**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ```bash
+    git clone https://github.com/ramigonzalez/digifi-insure-chain/mobile
+    ```
+   
+3. **Install React depedences**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    ```bash
+    npm install
+    ```
 
-### `npm test`
+4. **Run the Software**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    dfx start --background
+    dfx deploy
+    npm start
+    ```
+</details>    
+    
+---
 
-### `npm run build`
+## 📂 Project File Tree
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+CredSeg
+├── src
+│    └── credseg_icp_back-end
+│    │    └── main.mo
+│    │    │    
+│    └── credseg_icp_frontend   
+│    │    └──assets    
+│    │    │   └──...       
+│    │    └──src          
+│    │    │  └──components        
+│    │    │       └──...
+│    │    │
+│    │    └─ app.jsx
+│    │    └── index.html         
+│    │    └── index.jsx        
+│    │    │          
+│    │    │                   
+│    │    └── app_module.dart
+│    └── main.dart
+├── blockchain
+│
+│
+├── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `src`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `src/credseg_icp_front-end`
+    -  Our Internet Computer application front-end.
 
-### `npm run eject`
+- `src/credseg_icp_backend`
+    -  Our Internet Computer application back-end.
+    
+<details>
+<summary>🛠 Tech Stack Softwre</summary>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Technologoy (Front-end)
+- React Web
+- NFID
+- Internet Computer
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologoy (Back-end)
+- Motoko
+- Internet Computer 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
