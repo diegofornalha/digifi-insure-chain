@@ -68,17 +68,6 @@ CredSeg
  
 - `flight_api_http_request`
     -  Our Flight application back-end.
-    
-<details>
-<summary>🛠 Tech Stack Softwre</summary>
-
-### Technologoy (Front-end)
-- React Web
-- NFID
-- Internet Computer
-
-### Technologoy (Back-end)
-- Motoko
 - Internet Computer 
 
 ---
