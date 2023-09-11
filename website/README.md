@@ -68,6 +68,4 @@ CredSeg
  
 - `flight_api_http_request`
     -  Our Flight application back-end.
-- Internet Computer 
-
 ---
