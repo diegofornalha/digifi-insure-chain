@@ -43,7 +43,7 @@ CredSeg
 │    │    └──assets    
 │    │    │   └──...       
 │    │    └──src          
-│    │    │  └──components        
+│    │    │  └──screens       
 │    │    │       └──...
 │    │    │
 │    │    └─ app.jsx
